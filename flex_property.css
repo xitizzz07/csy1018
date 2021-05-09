@@ -1,0 +1,45 @@
+.header{
+   background-color:#679ac2;
+
+  height:100px;
+
+
+}
+
+.container{
+
+
+	display:flex;
+}
+
+
+
+.inline{
+
+     background-color:#3f51b5;
+     flex-grow:1;
+     height:500px;
+     
+}
+
+.outline{
+
+
+
+
+
+    background-color:#ac96af;
+    flex-grow:1;
+    height:500px;
+}
+
+.footer{
+
+
+	background-color:#636399; 
+
+	height:100px;
+	width:100%;
+}
+
+

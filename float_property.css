@@ -1,0 +1,34 @@
+.header{
+   background-color:#679ac2;
+   height:100px;
+   margin-top:10px;
+
+   width:100%;
+
+}
+
+.division{
+  float:left;
+
+  background-color:#3f51b5;
+  width:50%;
+  height:500px;
+
+
+}
+.divv{
+     float:right;
+
+    
+	background-color:#ac96af;
+	width:50%;
+	height:500px;
+}
+
+.footer{
+
+  clear:left;
+	background-color:#58339b;
+	margin-bottom:-20px;
+	height:50px;
+}
