@@ -1,0 +1,266 @@
+
+
+/* Rounded Corners with background color , border and image inside */
+
+
+.rounded-corners{
+ 
+ background-color:green;
+ width:200px;
+ height:200px;
+ border-radius:50px;
+ padding:40px;
+ color:white;
+ float:left;
+ 
+
+}
+
+.bordered-corner{
+    border:2px solid green ;
+    height:200px;
+    width:200px;
+    padding:20px;
+    border-radius:20px;
+    float:right;
+}
+
+
+.bg-image{
+
+	background-image: url(cardboard.jpg) ;
+	width:200px;
+	clear:both;
+	height:200px;
+	padding:20px;
+	margin-left:40%;
+	border-radius:20px;
+
+	
+	 }
+
+
+/* Border Image and Backgrounds */
+
+
+.h1{font-size:30px;
+	text-align:center;
+	padding:10% 0 1% 0;
+	font-weight:bold;
+
+}
+
+
+.bordering{
+
+ 	width:300px;
+ 	border:10px solid;
+ 	margin-left:37%;
+ 	padding:15px;
+ 	border-image:url(border.png) 30 round;
+
+
+
+
+
+}
+
+
+/* Backgrounds */
+
+
+.h2{
+
+	text-align:center;
+	padding:10% 0 2% 0;
+	font-size:30px;
+	font-weight:bold;
+}
+
+
+
+
+.main {
+	width: 900px;
+	height:500px;
+	margin-top:5%;
+	margin-left:17%;
+	border:1px solid black;
+	background-image:  url(nami.png) , url(nami_college.jpg) ;
+	background-position:  right top, left top;
+	background-repeat: no-repeat no-repeat;
+	background-size:100px 80px , cover;
+	font-size:30px;
+
+	 
+	
+}
+
+
+
+.intro{
+
+
+	font-size:60px;
+	color:blue;
+
+}
+
+/* Colour and Opacity */
+.h3{
+
+
+	font-size:30px;
+	text-align:center;
+	padding-top:10%;
+	font-weight:bold;
+
+}
+
+#p1 { background-color: rgba(255,0,0,0.4);}
+#p2 {background-color:rgba(0,255,0,0.2);}
+#p3 {background-color:rgba(0,0,255,0.3);}
+#p4 {background-color:rgba(192,192,192,0.3);}
+#p5 {background-color:rgba(255,255,0,0.3);}
+
+#h{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	padding-top:5%;
+}
+
+
+#p11{background-color:rgb(255,0,0); opacity:1.0;}
+#p22{background-color:rgb(255,0,0); opacity:0.8;}
+#p33{background-color:rgb(255,0,0); opacity:0.6;}
+#p44{background-color:rgb(255,0,0); opacity:0.4;}
+#p55{background-color:rgb(255,0,0); opacity:0.2;}
+#p66{background-color:rgb(255,0,0); opacity:0;}
+
+
+/*   Gradient    */
+
+
+.h4{
+	text-align:center;
+	font-weight:bold;
+	padding-top:10%;
+	padding-bottom:2%;
+	font-size:30px;
+}
+
+#grad1{ 
+	width:400px;
+	height:300px;
+	background: red;
+	background:linear-gradient(red,yellow);
+	color:white;
+	float:left;
+
+
+
+}
+
+#grad2{
+
+	width:400px;
+	height:300px;
+	color:white;
+	float:right;
+	background:red;
+	background:linear-gradient(to right, red, yellow) ;}
+
+
+
+
+.h5{
+
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:10%;
+}
+
+
+/*Text Shadows */
+
+
+.div1{
+	text-align:center;
+	clear:both;
+	margin-top:5%;
+	font-size:20px;
+}
+
+
+
+#p6{ text-shadow:2px 2px ;   }
+#p7 { text-shadow:2px 2px #53cb; }
+#p8 { text-shadow:2px 2px 8px blue  ; }
+#p9{ text-shadow:0 0 5px red , 0 0 9px yellow ;}
+
+
+
+/* Box Shadows */
+
+.box1{
+
+	
+	background-color:yellow;
+	width:200px;
+	height:300px;
+	box-shadow:20px 20px;
+	margin-left:40%;
+	margin-top:10%;
+	text-align:center;
+	padding-top:10%;
+
+
+
+}
+
+.box2{
+
+
+	background-color:yellow;
+	width:200px;
+	height:300px;
+	box-shadow:20px 20px blue;
+	margin-left:40%;
+	margin-top:10%;
+	text-align:center;
+	padding-top:10%;
+}
+
+.container{
+
+	width:200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 4px 6px 0 rgba(0,0,0,0.3) ; 
+	margin-left:40%;
+	margin-top:10%; 
+	text-align:center;
+}
+
+     /*Calendar*/
+
+.main11{
+
+
+	background-color:green;
+	height:150px;
+	padding-top:75px;
+	color:white;
+	font-size:80px;
+	font-family:Roboto;
+
+
+}
+
+
+
+
+
+
+
